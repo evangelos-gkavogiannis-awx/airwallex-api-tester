@@ -2,6 +2,7 @@ import Cardholders from "./Cardholders";
 import Cards from "./CreateCard"; 
 import FinancialTransactions from "./FinancialTransactions";
 import Deposits from "./Deposits";
+import Balances from "./Balances";
 
 
 
@@ -9,7 +10,8 @@ const componentMapping = {
   "Cardholders": Cardholders,
   "Cards": Cards,
   "Financial Transactions": FinancialTransactions,
-  "Deposits": Deposits
+  "Deposits": Deposits,
+  "Balances": Balances
   // Add more mappings as new components are created
 };
 
